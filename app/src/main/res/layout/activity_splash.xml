@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+
+<!--    <Button-->
+<!--        android:id="@+id/accesPermission"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@drawable/btn_shape"-->
+<!--        android:text="Please grant Permission"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#ffffff" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/mainActivity"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@drawable/btn_shape"-->
+<!--        android:text="Move On next"-->
+<!--        android:layout_below="@id/accesPermission"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:textColor="#ffffff" />-->
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/click_effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/onClickTask">
+
+        <TextView
+            android:id="@+id/slectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rahul"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/slectText"
+            android:layout_marginTop="12dp"
+            android:background="@color/grey" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WhatsappBot</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1">Home</string>
+    <string name="tab2">Contact</string>
+    <string name="swtich_off_text">OFF</string>
+    <string name="your_message">Your Message</string>
+    <string name="incoming_message">Incoming Message</string>
+    <string name="label_text">Incoming Message</string>
+    <string name="replyMsg">Reply Message</string>
+    <string name="customReply">Custom Reply Msg</string>
+    <string name="switch_on">ON</string>
+
+</resources>

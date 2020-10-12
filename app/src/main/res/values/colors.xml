@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#28B463</color>
+    <color name="blue">#0848F7</color>
+    <color name="grey">#CCD1D1</color>
+    <color name="tabs_color">#00574B</color>
+    <color name="dark_grey">#E5E8E8</color>
+    <color name="center_call_color">#4285F4</color>
+    <color name="color1">#0288d1</color>
+    <color name="color2">#4D469AFA</color>
+    <color name="dialer_theme_color">@color/dark_grey</color>
+    <color name="dialpad_primary_text_color">@color/black</color>
+    <color name="dialpad_secondary_text_color">#737373</color>
+    <color name="link_text_color">#005999</color>
+</resources>

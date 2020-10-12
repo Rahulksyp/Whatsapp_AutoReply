@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Reply Text"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/selctTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvText"
+                android:layout_toLeftOf="@id/editTextBtn"
+                android:singleLine="true"
+                android:fontFamily="serif"
+                android:lines="1"
+                android:ellipsize="end"
+                android:editable="false"
+                android:background="@android:color/transparent" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/tvText"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/buttonMsg"
+                android:src="@drawable/ic_msg" />
+
+
+            <ImageView
+                android:id="@+id/editTextBtn"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/tvText"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/view1"
+                android:src="@drawable/ic_edit" />
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_below="@id/tvText"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="18dp"
+                android:background="@color/black"
+                android:rotation="90" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
